@@ -3,17 +3,20 @@ import { Badge } from "@/components/ui/badge";
 
 const skills = {
   technical: [
-    "Dart", "TypeScript", "JavaScript", "Kotlin", "Flutter", "Express JS",
-    "Android Native", "Vue JS", "React JS", "Git", "Firebase SDK",
-    "Flutter Bloc", "Google Map", "ArcGIS Map"
+    "Dart", "Kotlin", "Java", "JavaScript", "TypeScript", "Flutter", 
+    "Android Native", "Vue JS", "React JS", "Express JS", "Github", 
+    "Gitlab", "Firebase", "Flutter Bloc", "Google Map", "ArcGIS Map", 
+    "Next JS"
   ],
   nonTechnical: [
     "Communication",
     "Problem-Solving",
-    "Love to learn new technology",
-    "Love to teach coding",
+    "Peer Programming",
+    "Presenting Code Result",
+    "Love to learn new Framework or Programming Language",
     "English (Professional)",
-    "Indonesia (Native)"
+    "Indonesia (Native)",
+    "Sundanese (Native)"
   ]
 };
 
@@ -39,7 +42,7 @@ export const Skills = () => {
           </Card>
           <Card className="animate-fadeIn" style={{ animationDelay: "0.2s" }}>
             <CardHeader>
-              <CardTitle>Non-Technical Skills</CardTitle>
+              <CardTitle>Interpersonal Skills & Languages</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="flex flex-wrap gap-2">
