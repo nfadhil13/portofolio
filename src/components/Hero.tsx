@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
   return (
-    <section className="min-h-[60vh] flex flex-col justify-center items-center text-center p-6 bg-gradient-to-b from-[#333333] to-[#222222] text-white animate-fadeIn">
+    <section className="min-h-[60vh] flex flex-col justify-center items-center text-center p-6 bg-gradient-to-b from-[#1a1a1a] to-[#000000] text-white animate-fadeIn">
       <h1 className="text-4xl md:text-5xl font-bold mb-4">Mohamad Naufal Fadhil</h1>
       <h2 className="text-xl md:text-2xl mb-6">Mobile Engineer</h2>
       <div className="flex flex-wrap gap-4 justify-center items-center mb-8">
